@@ -1,0 +1,36 @@
+body {
+    background-image: url("assets/background.png");
+}
+
+header {
+    vertical-align: middle;
+    height: 8rem;
+    text-align:center;
+    padding: 2%;
+    color: white;
+    background-color:black;
+}
+
+.container {
+    margin: 5rem 5rem 5rem 5rem;
+}
+
+.card {
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    width: 15rem;
+    height: 25rem;
+    background-color: cyan;
+}
+
+.card-header, .card-footer {
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    background-color: blue;
+}
+
+.content {
+    background-color: white;
+    margin: 1rem 1rem 1rem 1rem;
+    list-style-type: none;
+}
