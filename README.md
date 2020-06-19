@@ -27,7 +27,7 @@ To have all the important information of the team in one place
 
 ## Test
 
-Tests: done and working.
+Tests: done and working. All tests passed with flying colors
 
 
 ## Repository
