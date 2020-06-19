@@ -32,6 +32,6 @@ Tests: done and working.
 
 ## Repository
 
-- [Project Repo](https://github.com/paulinalo22/homework_readUwroteU)
+- [Project Repo](https://paulinalo22.github.io/homework_TeamMembersSummary/)
 
 
