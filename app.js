@@ -33,12 +33,12 @@ const adminChoices = [
 const adminQuestions = [
     {
         type: "input",
-        message: "Hello manager, what is your name?",
+        message: "Hello I'm HAL, what is your name?",
         name: "name"
     },
     {
         type: "input",
-        message: "What is your id?",
+        message: "What is your ID?",
         name: "id"
     },
     {
@@ -48,7 +48,7 @@ const adminQuestions = [
     },
     {
         type: "confirm",
-        message: "Are you a manager?",
+        message: "Are you the manager (NOT the assistant to the regional manager)?",
         name: "position",
         choices: [
             'Yes',
@@ -60,22 +60,22 @@ const adminQuestions = [
 const questions = [
     {
         type: "input",
-        message: "What is the employee's name?",
+        message: "What is the team member's name?",
         name: "name"
     },
     {
         type: "input",
-        message: "What is the employee's id?",
+        message: "What is the team member's id?",
         name: "id"
     },
     {
         type: "input",
-        message: "What is the employee's email?",
+        message: "What is the team member's email?",
         name: "email"
     },
     {
         type: "list",
-        message: "What is the employee's title?",
+        message: "What is the team member's title?",
         name: "title",
         choices: [
             'engineer',
@@ -87,7 +87,7 @@ const questions = [
 const managerQuestion = [
     {
         type: "input",
-        message: "What is your office number?",
+        message: "What is your office phone number?",
         name: "officeNumber"
     }
 
@@ -96,7 +96,7 @@ const managerQuestion = [
 const engineerQuestion = [
     {
         type: "input",
-        message: "What is the employee's GitHUb username?",
+        message: "What is the engineer's GitHUb username?",
         name: "gitname"
     }
 
@@ -105,7 +105,7 @@ const engineerQuestion = [
 const internQuestion = [
     {
         type: "input",
-        message: "What school did the employee go to?",
+        message: "What school did the intern go to?",
         name: "school"
     }
 
